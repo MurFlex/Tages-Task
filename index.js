@@ -5,7 +5,7 @@ const fetchData = async () => {
 	const posts = await getPosts()
 	const users = await getUsers(posts)
 
-	console.log(users[1].posts[0])
+	console.log(users)
 }
 
 fetchData()

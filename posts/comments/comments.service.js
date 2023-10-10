@@ -5,7 +5,7 @@ import { getData } from '../../utils/get-data.util.js'
  * Sending GET request to get comments for post by id
  * @param {Object} post
  * @param {String} [post.id] - Post id
- * @returns
+ * @returns {Object}
  */
 export const getComments = async ({ id }) => {
 	var comments
