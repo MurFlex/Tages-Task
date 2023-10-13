@@ -8,7 +8,7 @@ import { getData } from '../../utils/get-data.util.js'
  * @returns {Object}
  */
 export const getComments = async ({ id }) => {
-	var comments
+	let comments
 	const endpoint = `${ENDPOINTS.posts}/${id}/comments`
 
 	await getData(endpoint).then(data => {
